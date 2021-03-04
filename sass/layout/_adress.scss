@@ -1,0 +1,62 @@
+.adress {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: auto;
+    justify-content: center;
+  }
+  
+  address {
+    display: flex;
+    font-style: normal;
+    margin-left: auto;
+  }
+  
+  .adress-mail-link {
+    margin-right: 50px;
+  }
+  
+  .adress .adress-mail-link + .adress-phone-link {
+    margin-left: 50px;
+  }
+  
+  .adress-mail-link,
+  .adress-phone-link {
+    text-decoration: none;
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .adress-mail-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: #757575;
+  }
+  
+  .adress-mail-link:hover,
+  .adress-mail-link:focus {
+    color: #2196f3;
+  }
+  
+  .adress-phone-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: #757575;
+  }
+  
+  .adress-phone-link:hover,
+  .adress-phone-link:focus {
+    color: #2196f3;
+  }
+  

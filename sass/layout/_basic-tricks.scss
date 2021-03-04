@@ -1,0 +1,56 @@
+.space-sections {
+    padding-top: var(--big-space);
+    padding-bottom: var(--big-space);
+  }
+  .basic-tricks-item {
+    min-width: 270px;
+  }
+  
+  .icon-division {
+    content: '';
+    display: flex;
+    width: 270px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f4fa;
+    margin-bottom: 30px;
+    border-radius: 4px;
+  }
+  
+  .icom-svg {
+    width: 70px;
+    height: 70px;
+  }
+  .basic-tricks {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .basic-tricks p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .basic-tricks h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  
+  .basic-tricks-list {
+    display: flex;
+  }
+  
+  .basic-tricks .basic-tricks-item + .basic-tricks-item {
+    margin-left: 30px;
+  }
+  
+  
+  
+  .basic-tricks-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }

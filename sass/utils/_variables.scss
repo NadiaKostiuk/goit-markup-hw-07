@@ -1,3 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 :root {
     --main-color-titles-color: #212121;
     --massive-text-color: #757575;
@@ -12,4 +28,7 @@
     --betw-space: 30px;
     --menu-space: 32px;
     --transition-menu: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  :visited {
+    color: inherit;
   }
